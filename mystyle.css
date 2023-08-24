@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #338cf4;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 110vmin;
+  padding: 50px 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
+}
+.container .options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+.container .options .active {
+  background-color: #e0e9ff;
+}
+.container .options input[type=color] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 40px;
+  height: 28px;
+  border: none;
+  cursor: pointer;
+}
+.container .options .input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.container .options label, .container .options select {
+  font-family: "Poppins", sans-serif;
+}
+.container .options button {
+  font-size: 1rem;
+  height: 32px;
+  width: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  color: #020929;
+}
+.container .options select {
+  padding: 7px;
+  border: 1px solid #020929;
+  border-radius: 3px;
+}
+.container #text-input {
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  height: 50vh;
+}/*# sourceMappingURL=mystyle.css.map */
